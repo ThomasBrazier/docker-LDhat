@@ -19,6 +19,6 @@ RUN git clone https://github.com/auton1/LDhat.git LDhat \
     && cd LDhat && make && make clean && cd ..
 
 RUN git clone https://github.com/auton1/LDhot.git LDhot \
-    && cd LDhot && make MULTI=1 && make clean && cd ..
+    && cd LDhot && make && cd ..
 
 WORKDIR /mnt
